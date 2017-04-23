@@ -1,0 +1,25 @@
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.custom-modal {
+  width: 1000px;
+  margin: 5% auto;
+}
+.modal-body {
+  height: 425px;
+}
+.margin {
+  margin: 50px;
+}
+.padding-top50 {
+  padding-top: 50px
+}
